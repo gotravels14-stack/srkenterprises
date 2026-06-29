@@ -1,34 +1,33 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Shield, Award, Users, HeartHandshake, FileText, CheckCircle2 } from "lucide-react";
-import Image from "next/image";
+import { Shield, Award, Users, HeartHandshake, CheckCircle2 } from "lucide-react";
 
 export default function AboutSection() {
   const values = [
     {
       name: "Integrity",
-      description: "We uphold the highest moral standards in every project, contract, and partnership.",
+      description: "We conduct our business with honesty, transparency and strong ethics.",
       icon: <Shield className="h-6 w-6 text-secondary" />,
     },
     {
-      name: "Quality Quality",
-      description: "We never cut corners. Every structural weld and piping alignment matches highest codes.",
+      name: "Quality",
+      description: "We are committed to maintain the highest standards in every work.",
       icon: <Award className="h-6 w-6 text-secondary" />,
     },
     {
       name: "Teamwork",
-      description: "We align client expectations, engineering staff, and on-site workforce harmoniously.",
+      description: "We believe in collaboration, respect and growing together.",
       icon: <Users className="h-6 w-6 text-secondary" />,
     },
     {
-      name: "Safety First",
-      description: "We enforce strict PPE and risk-mitigation measures, achieving zero accident targets.",
+      name: "Safety",
+      description: "Safety of our people, clients and site is our top priority in every project.",
       icon: <HeartHandshake className="h-6 w-6 text-secondary" />,
     },
     {
       name: "Commitment",
-      description: "We stand by our words. On-time delivery of projects is our ultimate signature.",
+      description: "We are dedicated to deliver projects on time with best resources and efforts.",
       icon: <CheckCircle2 className="h-6 w-6 text-secondary" />,
     },
   ];
@@ -63,10 +62,10 @@ export default function AboutSection() {
             <div className="absolute inset-0 bg-[#0A2342]/20 group-hover:bg-[#0A2342]/10 transition-colors" />
             <div className="absolute bottom-6 left-6 right-6 bg-primary/90 backdrop-blur-md p-6 rounded-xl border border-white/10 text-white">
               <span className="text-secondary font-extrabold text-sm uppercase tracking-wider block">
-                Industrial Contracting
+                Mechanical Contracting
               </span>
               <p className="text-xs text-gray-300 mt-1">
-                Erecting infrastructure and engineering piping solutions across industrial landscapes since 2011.
+                Erecting industrial steel frames and processing systems in core infrastructure sectors.
               </p>
             </div>
           </div>
@@ -75,11 +74,8 @@ export default function AboutSection() {
           <div className="lg:col-span-7 space-y-8">
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-primary">Your Trust, Our Responsibility</h3>
-              <p className="text-gray-600 leading-relaxed">
-                SKR Enterprises is a premier mechanical construction and contracting firm focusing on
-                quality execution, zero-accident environments, and absolute adherence to project schedules.
-                We have built deep client relationships with key power, fertilizer, cement, and refinery giants
-                by providing skilled manpower, custom fabrication, and specialized equipment erection.
+              <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
+                SKR Enterprises is a trusted name in the field of mechanical construction and contracting services. With a strong foundation of technical expertise, skilled manpower and modern resources, we have successfully executed a wide range of projects with quality, safety and on-time completion. Our commitment to excellence and client satisfaction has helped us build long-term relationships and establish a strong presence in the industry.
               </p>
             </div>
 
@@ -88,18 +84,16 @@ export default function AboutSection() {
                 <span className="text-secondary font-extrabold text-sm uppercase tracking-wider block">
                   Our Vision
                 </span>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  To become India's most trusted engineering partner, leading the construction and maintenance
-                  sectors through technical innovation, safety standards, and sustainable project delivery.
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  To be a leading mechanical construction and contracting company recognized for our quality work, innovation, safety practices and customer satisfaction.
                 </p>
               </div>
               <div className="space-y-2">
                 <span className="text-secondary font-extrabold text-sm uppercase tracking-wider block">
                   Our Mission
                 </span>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  To supply cutting-edge engineering fabrication and maintenance services, developing skilled
-                  industrial workforces, and creating unmatched value for our corporate partners.
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                  To deliver high-quality, reliable and cost-effective services by using best practices, skilled manpower and advanced technology while ensuring safety, integrity and timely execution in every project.
                 </p>
               </div>
             </div>
@@ -129,7 +123,7 @@ export default function AboutSection() {
               <div className="flex flex-wrap gap-4 pt-2">
                 <span className="bg-white border border-gray-200 px-3 py-1 rounded-full text-xs font-semibold text-gray-500 flex items-center">
                   <CheckCircle2 className="h-3.5 w-3.5 text-secondary mr-1.5" />
-                  15+ Years Industrial Leadership
+                  Expertise in Mechanical Construction
                 </span>
                 <span className="bg-white border border-gray-200 px-3 py-1 rounded-full text-xs font-semibold text-gray-500 flex items-center">
                   <CheckCircle2 className="h-3.5 w-3.5 text-secondary mr-1.5" />

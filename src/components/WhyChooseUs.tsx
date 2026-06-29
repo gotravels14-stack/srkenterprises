@@ -68,10 +68,10 @@ export default function WhyChooseUs() {
   ];
 
   const counters = [
-    { value: 500, suffix: "+", label: "Projects Executed", sub: "Refineries, Cement, Power Plants" },
-    { value: 150, suffix: "+", label: "Clients Served", sub: "Corporate Giants & Subcontractors" },
-    { value: 95, suffix: "%", label: "Repeat Clients", sub: "Testifying to our reliability" },
-    { value: 100, suffix: "%", label: "Safety Commitment", sub: "Strict compliance on site" },
+    { value: 3, suffix: "+", label: "Years Experience", sub: "Active in mechanical construction" },
+    { value: 10, suffix: "+", label: "Completed Projects", sub: "Executed with high quality standards" },
+    { value: 40, suffix: " approx.", label: "Manpower Strength", sub: "Engineers, supervisors & skilled workers" },
+    { value: 100, suffix: "%", label: "Safety Record", sub: "Zero major safety incidents on site" },
   ];
 
   return (

@@ -24,19 +24,19 @@ export default function Hero() {
   const stats = [
     {
       id: "stat-1",
-      value: "15+",
+      value: "3+",
       label: "Years of Experience",
       icon: <Trophy className="h-6 w-6 text-secondary" />,
     },
     {
       id: "stat-2",
-      value: "500+",
+      value: "10+",
       label: "Projects Completed",
       icon: <CheckCircle className="h-6 w-6 text-secondary" />,
     },
     {
       id: "stat-3",
-      value: "150+",
+      value: "35-40",
       label: "Skilled Workforce",
       icon: <Users className="h-6 w-6 text-secondary" />,
     },

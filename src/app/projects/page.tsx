@@ -104,7 +104,7 @@ export default function ProjectsPage() {
                     </div>
                     <div className="flex items-center">
                       <Calendar className="h-4 w-4 text-secondary shrink-0 mr-2" />
-                      <span>Completed in {project.year}</span>
+                      <span>Duration: <strong className="text-gray-700">{project.duration}</strong></span>
                     </div>
                   </div>
                 </motion.div>

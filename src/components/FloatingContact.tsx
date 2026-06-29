@@ -26,7 +26,7 @@ export default function FloatingContact() {
     {
       name: "Email",
       icon: <Mail className="h-5 w-5" />,
-      href: "mailto:pamjavi1981@gmail.com",
+      href: "mailto:pamjaw1981@gmail.com",
       color: "bg-red-500 hover:bg-red-600",
     },
     {

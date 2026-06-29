@@ -75,7 +75,7 @@ export default function PrivacyPage() {
                 SKR Enterprises<br />
                 Haldi Rampur Kathar Baari, Belthra Road, Ballia, Uttar Pradesh – 221715<br />
                 Proprietor: Mr. Sanjay Kumar Rajbhar<br />
-                Email: pamjavi1981@gmail.com
+                Email: pamjaw1981@gmail.com
               </p>
             </section>
           </div>

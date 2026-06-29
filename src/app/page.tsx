@@ -155,7 +155,7 @@ export default function Home() {
             </div>
             {/* Direct download prompt */}
             <a
-              href="mailto:pamjavi1981@gmail.com?subject=Request%20Company%20Profile%20PDF"
+              href="mailto:pamjaw1981@gmail.com?subject=Request%20Company%20Profile%20PDF"
               className="bg-secondary hover:bg-secondary-dark text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-orange-500/20 hover:shadow-orange-500/30 transition-all duration-300 flex items-center justify-center shrink-0"
             >
               <Download className="mr-2 h-5 w-5" />

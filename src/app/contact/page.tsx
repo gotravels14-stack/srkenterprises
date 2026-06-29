@@ -83,8 +83,8 @@ export default function ContactPage() {
                 <Mail className="h-6 w-6 text-secondary shrink-0 mt-0.5" />
                 <div className="space-y-1">
                   <span className="text-xs font-bold text-gray-400 uppercase tracking-widest block">Email Address</span>
-                  <a href="mailto:pamjavi1981@gmail.com" className="text-xs sm:text-sm font-bold text-slate-850 hover:text-secondary block truncate max-w-[170px] sm:max-w-none">
-                    pamjavi1981@gmail.com
+                  <a href="mailto:pamjaw1981@gmail.com" className="text-xs sm:text-sm font-bold text-slate-850 hover:text-secondary block truncate max-w-[170px] sm:max-w-none">
+                    pamjaw1981@gmail.com
                   </a>
                 </div>
               </div>
